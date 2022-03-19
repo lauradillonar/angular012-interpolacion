@@ -7,6 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Ejemplo de Interpolación';
+  numero1 = 1;
+  numero2 = 2;
 
   programador = ({
     nombre: "Anders Hejisberg",
