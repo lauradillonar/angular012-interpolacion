@@ -6,5 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'angular012-interpolacion';
+  title = 'Ejemplo de Interpolación';
+
+  programador = ({
+    nombre: "Anders Hejisberg",
+    lenguajes: ['C#', 'Delphi', 'Pascal', 'TypeScript']
+  });
 }
